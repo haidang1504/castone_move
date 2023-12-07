@@ -8,19 +8,49 @@ body{
 }
 
 /* header  */
-.navbar-nav a {
+.navbar-brand {
+  font-size: 17px;
+}
+
+.navbar-collapse .navbar-nav li a {
+  font-size: 19px;
   color: white;
-  font-size: 15px;
   margin-right: 20px;
+  transition: all 0.5s;
+}
+.navbar-collapse .navbar-nav li a.active {
+  color: #22caed !important;
 }
 
-.cyber {
-  font-size: 40px;
-  color: white;
+.navbar-collapse .navbar-nav li:hover a {
+  color: #22caed !important;
 }
 
-.navbar-nav .nav-item i {
-  color: red;
+.navbar-collapse .navbar-nav li a::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  background-color: #22caed;
+  transition: all 0.5s;
+}
+.navbar-collapse .navbar-nav li a.active::after {
+  width: 100%;
+}
+.navbar-collapse .navbar-nav li a:hover::after {
+  width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-collapse .navbar-nav li a {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-collapse .navbar-nav li a {
+    font-size: 10px;
+  }
 }
 
 /* carousel  */
