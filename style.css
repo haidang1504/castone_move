@@ -14,8 +14,14 @@
   color: white;
 }
 
-.navbar-nav .nav-item i {
-  color: red;
+.item {
+  font-size: 23px;
+  margin-top: 5px;
+  margin-left: 10px;
+  color: white;
 }
-
 /* carousel  */
+
+#carousel {
+  background-image: url(./images/h1.jpgs);
+}
