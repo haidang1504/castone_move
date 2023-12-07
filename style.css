@@ -14,4 +14,8 @@
   color: white;
 }
 
+.navbar-nav .nav-item i {
+  color: red;
+}
+
 /* carousel  */
