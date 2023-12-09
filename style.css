@@ -1,9 +1,8 @@
 * {
-  font-family: "Hind", sans-serif;
- 
+  /* font-family: "Hind", sans-serif; */
 }
 
-body{
+body {
   background-color: #1d1d1d;
 }
 
@@ -55,20 +54,90 @@ body{
 
 /* carousel  */
 
+/* Content */
 
-/* Service */
-
-.service{
-  padding: 25px 0 50px 0;
-}
-
-.news h2 , .review h2{
+.content h2 {
   color: #1fc2e9;
   padding: 25px 0 25px 0;
   display: inline-block;
 }
 
-.news h2::after ,.review h2::after {
+.content__text ul {
+  display: flex;
+}
+
+.content__text ul a li img {
+  background-color: white;
+  padding: 25px;
+  border-radius: 50%;
+}
+
+.content__text ul a li {
+  display: block;
+}
+
+.tab__content {
+  padding: 70px;
+}
+.cimbali {
+  display: flex;
+}
+
+.cimbali__left {
+  display: flex;
+  padding-top: 15px;
+}
+
+.texr__left img {
+  width: 120px;
+}
+
+.text__right {
+  color: white;
+  padding: 30px 15px;
+}
+
+.text__right span {
+  font-size: 20px;
+  font-weight: 500;
+}
+.cimbali__right {
+  padding-left: 40px;
+}
+
+.berry {
+  display: flex;
+  padding: 20px;
+}
+
+.title__left img {
+  width: 200px;
+}
+
+.title__right {
+  padding: 50px 20px;
+  color: white;
+}
+
+.title__button {
+  padding: 10px;
+}
+
+/* Service */
+
+.service {
+  padding: 25px 0 50px 0;
+}
+
+.news h2,
+.review h2 {
+  color: #1fc2e9;
+  padding: 25px 0 25px 0;
+  display: inline-block;
+}
+
+.news h2::after,
+.review h2::after {
   content: "";
   height: 2.5px;
   display: block;
@@ -76,57 +145,188 @@ body{
   background-color: #1fc2e9;
 }
 
-
-
-.news__right img , .review__right img {
+.news__right img,
+.review__right img {
   width: 100%;
   padding-bottom: 30px;
 }
 
-.news__left , .review__left{
+.news__left,
+.review__left {
   padding-left: 20px;
 }
 
-.news__left button{
+.news__left button {
   font-size: 13px;
   margin: 12px 0 12px 0;
 }
 
-.news__left a , .review__left a{
+.news__left a,
+.review__left a {
   color: white;
-    font-weight: 600;
-    text-decoration: none;
-    font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 15px;
 }
 
-.news__left p , .review__left p {
+.news__left p,
+.review__left p {
   color: white;
-    font-weight: 500;
-    font-size: 16px;
-
+  font-weight: 500;
+  font-size: 16px;
 }
-.star{
+.star {
   color: yellow;
   margin: 12px 0;
-
 }
 
-
 @media screen and (max-width: 991px) {
-  .news__left a , .review__left a{
+  .news__left a,
+  .review__left a {
     font-size: 13px;
   }
-  .news__left p , .review__left p{
+  .news__left p,
+  .review__left p {
     font-size: 12px;
   }
 }
- 
 
+/* Contact */
 
-/* 
-#contact{
-  background-image: url(./images/wonka-2048_1701227781614.webp);
+#contact {
+  background-image: url(./images/wrappicture.jpg);
   background-size: cover;
-  height: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  height: 500px;
+}
+
+@media screen and (max-width: 991px) {
+  #contact {
+  }
+}
+
+/* footer */
+
+.footer {
+  padding: 25px 0 25px 0;
+}
+
+.footer__frame h2 {
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+}
+
+.footer__frame p {
+  padding-top: 13px;
+  color: white;
+}
+
+.footer__title {
+  padding: 0 20px;
+}
+
+.footer__title h3 {
+  font-size: 25px;
+  font-weight: 600;
+  
+  color: white;
+}
+
+.footer__title h3::after {
+  content: "";
+  height: 2.5px;
+  display: block;
   width: 100%;
-} */
+  background-color: #1fc2e9;
+}
+
+.footer__title ul {
+  list-style: none;
+ padding-left: 0;
+ margin-top: 33px;
+}
+
+.footer__title ul li {
+  padding-bottom: 20px;
+ 
+}
+
+.footer__title ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__title > ul li a::after{
+  content: "";
+  height: 2.5px;
+  display: block;
+  width: 100%;
+  background-color: white;
+}
+
+
+.icon ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+}
+
+.icon ul li{
+  margin-right: 7px;
+}
+
+.icon ul li a i {
+  color: white;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 991px) {
+  .footer__frame h2 {
+    font-size: 25px;
+  }
+
+  .footer__title h3 {
+    font-size: 15px;
+  }
+
+  .icon li a i{
+    font-size: 20px;
+  }
+
+  .footer__title ul li a{
+    font-size: 14px;
+  }
+
+  .footer__frame p{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__frame h2 {
+    font-size: 23px;
+  }
+
+  .footer__title h3 {
+    font-size: 11px;
+  }
+
+  .icon li a i{
+    font-size: 16px;
+  }
+
+  .footer__title ul li a{
+    font-size: 11px;
+  }
+
+  .footer__frame p{
+    font-size: 11px;
+  }
+
+  .icon{
+    width: 100%;
+  }
+}
