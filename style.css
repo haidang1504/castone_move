@@ -62,25 +62,11 @@ body {
 
 /* Content */
 
-.content h2 {
-}
-/* Service */
-.service {
-  padding: 25px 0 50px 0;
-}
-
-.news h2,
-.review h2 {
-  color: #1fc2e9;
-  padding: 25px 0 25px 0;
-  display: inline-block;
-}
-
 .content__text ul {
   display: flex;
 }
 
-.content__text ul a li img {
+.nav-item a img {
   background-color: white;
   padding: 25px;
   border-radius: 50%;
@@ -216,10 +202,10 @@ body {
   height: 500px;
 }
 
-@media screen and (max-width: 991px) {
+/* @media screen and (max-width: 991px) {
   #contact {
   }
-}
+} */
 
 /* footer */
 
