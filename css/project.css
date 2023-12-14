@@ -1,0 +1,41 @@
+/* project  */
+#project .nav-pills {
+  padding-top: 100px;
+}
+#project .nav-pills .nav-link.active,
+#project .nav-pills .show > .nav-link {
+  color: aqua;
+  background: none;
+}
+
+#project .nav-pills .nav-link,
+#project .nav-pills .show > .nav-link {
+  color: white;
+  background: none;
+}
+#project .nav-link {
+  position: relative;
+  margin: 20px;
+}
+#project .nav-link.active::after {
+  content: "";
+  bottom: 0;
+  right: 0;
+  height: 2px;
+  width: 100%;
+  display: block;
+  background-color: aqua;
+  position: absolute;
+}
+
+#project .nav-pills .nav-item a {
+  font-size: 35px;
+}
+/* tab panes */
+#project .tab_text {
+  margin: 20px;
+}
+
+#project .tab_img .tab_content {
+  color: white;
+}
