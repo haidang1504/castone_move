@@ -1,0 +1,122 @@
+/* .content__text ul {
+    display: flex;
+  } */
+
+#content {
+  padding: 50px 0 30px 0;
+}
+
+.content h2 {
+  color: #1fc2e9;
+  padding: 25px 0 25px 0;
+  text-align: center;
+}
+
+.content span {
+  position: relative;
+}
+
+.content span::after {
+  content: "";
+  height: 2.5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1fc2e9;
+}
+
+#content .nav-item {
+  text-align: center;
+}
+
+#content .nav-item a img {
+  background-color: white;
+  padding: 30px;
+  border-radius: 50%;
+}
+
+.content__text ul a li {
+  display: block;
+}
+
+.tab__content {
+  padding: 70px;
+}
+.cimbali {
+  display: flex;
+}
+
+.cimbali__left {
+  display: flex;
+  padding-top: 15px;
+}
+
+.text__left img {
+  width: 100%;
+  padding-top: 35px;
+}
+
+.text__right {
+  color: white;
+  padding: 30px 15px;
+}
+
+.text__right span {
+  font-size: 20px;
+  font-weight: 500;
+}
+.cimbali__right {
+  padding-left: 40px;
+}
+
+.berry {
+  display: flex;
+  padding: 55px 0 10px 0;
+}
+
+.title__left img {
+  width: 200px;
+}
+
+.title__right {
+  padding: 50px 20px;
+  color: white;
+}
+
+.title__button {
+  padding: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  #content .nav-item a img {
+    padding: 20px;
+  }
+  .text__right span {
+    font-size: 14px;
+  }
+  .text__right span img {
+    width: 35px;
+  }
+  .text__right p {
+    font-size: 12px;
+  }
+  .title__left img {
+    width: 150px;
+  }
+  .title__right {
+    padding: 20px 10px;
+  }
+  .title__right h4 {
+    font-size: 18px;
+  }
+  .title__right p {
+    font-size: 15px;
+  }
+  .title__right button span {
+    font-size: 15px;
+  }
+  .title__right button {
+    padding: 5px 15px;
+  }
+}

@@ -108,66 +108,6 @@ body {
 }
 /* Content */
 
-.content__text ul {
-  display: flex;
-}
-
-.nav-item a img {
-  background-color: white;
-  padding: 25px;
-  border-radius: 50%;
-}
-
-.content__text ul a li {
-  display: block;
-}
-
-.tab__content {
-  padding: 70px;
-}
-.cimbali {
-  display: flex;
-}
-
-.cimbali__left {
-  display: flex;
-  padding-top: 15px;
-}
-
-.texr__left img {
-  width: 120px;
-}
-
-.text__right {
-  color: white;
-  padding: 30px 15px;
-}
-
-.text__right span {
-  font-size: 20px;
-  font-weight: 500;
-}
-.cimbali__right {
-  padding-left: 40px;
-}
-
-.berry {
-  display: flex;
-  padding: 20px;
-}
-
-.title__left img {
-  width: 200px;
-}
-
-.title__right {
-  padding: 50px 20px;
-  color: white;
-}
-
-.title__button {
-  padding: 10px;
-}
 
 /* Service */
 
