@@ -1,0 +1,38 @@
+/* table  */
+.dropdown {
+  margin: 0 15px;
+  padding-top: 30px;
+}
+.dropdown button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: gray;
+  border: 1px solid gray;
+}
+
+@media screen and (max-width: 576px) {
+  .col-2 {
+    width: 100%;
+  }
+  .dropdown button {
+    font-size: 2.1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .col-md-2 {
+    width: 100%;
+  }
+  .dropdown button {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .col-lg-2 {
+    width: 100%;
+  }
+  .dropdown button {
+    font-size: 1.2rem;
+  }
+}
