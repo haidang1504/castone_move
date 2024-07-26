@@ -1,0 +1,74 @@
+.navbar i {
+  margin-right: 20px;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.navbar {
+  background-color: #ffc10724 !important;
+}
+
+.navbar .arrow {
+  padding-top: 9px;
+}
+
+.ndp {
+  padding: 50px 0;
+}
+
+.ndp hr {
+  height: 4px;
+}
+
+.row .left img {
+  width: 100%;
+}
+
+.cinema button {
+  background-color: #00000008;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.cinema .button_1 {
+  border: 2px solid grey;
+  padding: 8px 17px;
+}
+
+.cinema .button_2 {
+  border: 2px solid blue;
+  color: blue;
+  padding: 8px 17px;
+}
+
+.cinema .button_3 {
+  border: 2px solid grey;
+  padding: 8px 17px;
+}
+
+.cinema .button_4 {
+  border: 2px solid orange;
+  padding: 8px 17px;
+  color: orange;
+}
+
+.button {
+  padding: 20px 0;
+}
+
+.button .btn_1 {
+  font-size: 10px;
+  padding-right: 15px;
+}
+
+.button .mua_ve {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.footer .btn {
+  margin-left: 45%;
+  font-size: 20px;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
